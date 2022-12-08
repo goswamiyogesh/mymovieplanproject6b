@@ -1,0 +1,11 @@
+#Thu Dec 08 13:06:23 IST 2022
+ct=jbt
+a=finishWizard
+c=0
+s=1
+d=1670484983289
+v=2.2.500
+vl=How many times the 'Finish' button pressed during the day
+cmp=usage
+cl=org.eclipse.jst.servlet.ui.internal.wizard.AddServletWizard
+l=Wizard class name

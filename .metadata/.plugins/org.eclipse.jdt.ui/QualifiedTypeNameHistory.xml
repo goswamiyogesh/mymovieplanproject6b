@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="javax.persistence.ManyToOne"/>
+    <fullyQualifiedTypeName name="javax.persistence.JoinColumn"/>
+    <fullyQualifiedTypeName name="com.learneracademy.pojo.Students"/>
+    <fullyQualifiedTypeName name="com.learneracademy.pojo.Teachers"/>
+    <fullyQualifiedTypeName name="org.hibernate.boot.registry.StandardServiceRegistry"/>
+    <fullyQualifiedTypeName name="org.hibernate.boot.Metadata"/>
+    <fullyQualifiedTypeName name="org.hibernate.boot.MetadataSources"/>
+    <fullyQualifiedTypeName name="com.learneracademy.pojo.Subjects"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="javax.persistence.Entity"/>
+    <fullyQualifiedTypeName name="javax.persistence.Table"/>
+    <fullyQualifiedTypeName name="javax.persistence.Id"/>
+    <fullyQualifiedTypeName name="javax.persistence.GeneratedValue"/>
+    <fullyQualifiedTypeName name="javax.persistence.Column"/>
+    <fullyQualifiedTypeName name="javax.persistence.OneToMany"/>
+    <fullyQualifiedTypeName name="javax.persistence.CascadeType"/>
+    <fullyQualifiedTypeName name="org.hibernate.cfg.Configuration"/>
+    <fullyQualifiedTypeName name="com.learneracademy.pojo.Student"/>
+    <fullyQualifiedTypeName name="com.learneracademy.pojo.Classes"/>
+    <fullyQualifiedTypeName name="com.learneracademy.util.HibernateUtil"/>
+    <fullyQualifiedTypeName name="com.mysql.cj.xdevapi.SessionFactory"/>
+    <fullyQualifiedTypeName name="com.learneracademy.pojo.Subject"/>
+    <fullyQualifiedTypeName name="com.learneracademy.pojo.Teacher"/>
+    <fullyQualifiedTypeName name="java.io.Serializable"/>
+    <fullyQualifiedTypeName name="javax.servlet.http.HttpSession"/>
+    <fullyQualifiedTypeName name="javax.servlet.RequestDispatcher"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="org.hibernate.boot.registry.StandardServiceRegistryBuilder"/>
+    <fullyQualifiedTypeName name="org.hibernate.Transaction"/>
+    <fullyQualifiedTypeName name="org.hibernate.Session"/>
+    <fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
+    <fullyQualifiedTypeName name="com.simplilearn.pojo.Students"/>
+    <fullyQualifiedTypeName name="com.simplilearn.pojo.Classes"/>
+    <fullyQualifiedTypeName name="org.hibernate.query.Query"/>
+</qualifiedTypeNameHistroy>

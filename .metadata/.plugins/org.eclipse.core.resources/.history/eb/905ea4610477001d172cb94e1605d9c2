@@ -1,0 +1,21 @@
+package com.simplilearn.dao;
+
+public class StudentToClassDao {
+	public List<Product> display(){
+		StandardServiceRegistry ssr=new StandardServiceRegistryBuilder().configure("hibernate.cfg.xml").build();
+		//Meta data in the config file should be executed	
+		Metadata md=new MetadataSources(ssr).getMetadataBuilder().build();
+		//read session factory in the xml
+		SessionFactory sf=md.getSessionFactoryBuilder().build();
+		//to perform crud operation we need to define an object
+		Session session=sf.openSession();
+		//used to save the crud operation result on the table
+		Transaction tran=session.beginTransaction();
+		Query q=session.createQuery("from Product");
+		return q.list();
+		
+	}
+		
+}
+
+}

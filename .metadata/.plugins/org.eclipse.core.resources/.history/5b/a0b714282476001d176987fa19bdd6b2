@@ -1,0 +1,22 @@
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+    <%@ page import=" com.simplilearn.pojo.Students" %>
+      <%@ page import= "com.simplilearn.pojo.Subjects" %>
+      <%@ page import="java.util.List" %>
+      <%@ page import= "org.hibernate.Session" %>
+      <%@ page import= "org.hibernate.query.Query" %>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<a href="index.jsp"> back to main menu </a><br>
+<h1>Assign a student to a class</h1>
+<%
+List<Students> students = session.createQuery("From Students").list();
+List<Subjects> subjects = session.createQuery("From Subjects").list();
+%>
+</body>
+</html>

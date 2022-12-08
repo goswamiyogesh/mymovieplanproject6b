@@ -1,0 +1,45 @@
+package com.simplilearn.main;
+
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.hibernate.Transaction;
+import org.hibernate.boot.registry.StandardServiceRegistryBuilder;
+
+import com.simplilearn.pojo.Classes;
+import com.simplilearn.pojo.Students;
+
+import org.hibernate.boot.Metadata;
+import org.hibernate.boot.MetadataSources;
+import org.hibernate.boot.registry.StandardServiceRegistry;
+public class StudentToClass {
+
+	public static void main(String[] args) {
+		StandardServiceRegistry ssr=new StandardServiceRegistryBuilder().configure("hibernate.cfg.xml").build();
+	
+		Metadata md=new MetadataSources(ssr).getMetadataBuilder().build();
+		
+		SessionFactory sf=md.getSessionFactoryBuilder().build();
+		Session session=sf.openSession();
+		//used to save the crud operation result on the table
+		Transaction trans=session.beginTransaction();
+		        Classes cl= new Classes();
+                 cl.setClassId(1);
+                 cl.setClassName("bsc.cs");
+    
+                   session.save(cl);
+		
+                Students  stud =new Students();
+                    stud.setId(1);
+                    stud.setFirstName("vikram");
+                    stud.setLastName("reddy");
+                    stud.setAddress("palwal");
+                     stud.setClasses(cl);
+                    session.save(stud);
+                    
+                  trans.commit();
+                  session.close();
+                  sf.close();
+                    
+	}
+
+}

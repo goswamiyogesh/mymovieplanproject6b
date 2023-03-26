@@ -1,4 +1,6 @@
-GitRepositoriesView.GitDirectories=C\:\\Users\\Adit\\git\\repository9\\.git;
-GitRepositoriesView.GitDirectories.relative=C\:\\Users\\Adit\\git\\repository9\\.git;
+GitRepositoriesView.GitDirectories=C\:\\Users\\Adit\\Documents\\workspace-spring-tool-suite-4-4.16.1.RELEASE\\.git;C\:\\Users\\Adit\\git\\repository9\\.git;
+GitRepositoriesView.GitDirectories.relative=.git;C\:\\Users\\Adit\\git\\repository9\\.git;
+RepositoryGroups.uuids=
+RepositorySearchDialogSearchPath=C\:\\Users\\Adit\\git
 core_autoIgnoreDerivedResources=false
 eclipse.preferences.version=1

@@ -125,6 +125,8 @@
 		<item key="SmartImportRootWizardPage.STORE_NESTED_PROJECTS" value="true"/>
 		<item key="SmartImportRootWizardPage.STORE_CONFIGURE_NATURES" value="true"/>
 		<list key="org.eclipse.ui.internal.wizards.datatransfer.SmartImportRootWizardPage.knownSources">
+			<item value="C:\Users\Adit\git\repository9\LearnerAcademyProject"/>
+			<item value="C:\Users\Adit\git\repository9\LearnerAcademyProject\src"/>
 			<item value="C:\Users\Adit\Documents\workspace-spring-tool-suite-4-4.16.1.RELEASE\Phase2learneracademy"/>
 			<item value="C:\Users\Adit\Downloads\Phase2_Project1-main-test"/>
 		</list>
